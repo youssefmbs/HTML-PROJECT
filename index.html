@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Portfolio</title>
+  </head>
+  <body bgcolor="#808080">
+    <h1>Youssef Mabsoute's Portfolio</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#My Services">My Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav> 
+    <h3>I am, Youssef Masboute <button>My Portfolio</button></h3>
+  
+    
+    <section id="My Services">
+      <h3><i>My Services : </i></h3>
+      <ul>
+        <li>Web Development</li>
+        <li>Photography</li>
+        <li>Editing</li>
+      </ul>
+    </section>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I am passionate about web development and strive to create beautiful and
+        functional websites.
+      </p>
+      <img
+        src="WhatsApp Image 2024-05-13 at 11.29.49 PM.jpeg"
+        width="150"
+        height="200"
+      />
+      <h3>Languages :</h3>
+     <b>English : 100%</b> 
+      <br />
+    <b>French : 60%
+    </b>
+    <br>
+    <b>Arabic : 100%</b>
+    </section>
+
+    <section id="resume">
+      <h2>Resume</h2>
+      <form action="submit_resume.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required /><br /><br />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required /><br /><br />
+        <input type="submit" value="Submit" />
+      </form>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <link href="https://mail.google.com/mail/u/1/#inbox" />
+      <form action="send_message.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required /><br /><br />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required /><br /><br />
+        <label for="message">Message:</label><br />
+        <textarea
+          id="message"
+          name="message"
+          rows="4"
+          cols="50"
+          required
+        ></textarea>
+
+        <br />
+
+        <br />
+        <input type="submit" value="Send Message" /><br /><br />
+        <b>
+          feel free to text me anytime on my
+          <a href="https://www.instagram.com/yowwsef.666/">Instagram</a> !</b
+        >
+      </form>
+    </section>
+    <aside></aside>
+
+    <footer>
+      <p>&copy; 2024 Portfolio. Created by Mabsoute Youssef.</p>
+    </footer>
+  </body>
+</html>
